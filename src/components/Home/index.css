@@ -1,0 +1,25 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home-image-large {
+  display: block;
+}
+.home-image-small {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .home-image-large {
+    display: none;
+  }
+  .home-image-small {
+    display: block;
+  }
+}
+.home-lg-image-style {
+  height: 90vh;
+}

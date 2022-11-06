@@ -1,0 +1,25 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-image-large {
+  display: inline;
+}
+.about-image-small {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .about-image-large {
+    display: none;
+  }
+  .about-image-small {
+    display: inline;
+  }
+}
+.about-lg-image-style {
+  height: 90vh;
+}
